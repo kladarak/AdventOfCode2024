@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdventOfCode2024", "AdventOfCode2024.vcxproj", "{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Debug|x64.ActiveCfg = Debug|x64
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Debug|x64.Build.0 = Debug|x64
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Debug|x86.Build.0 = Debug|Win32
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Release|x64.ActiveCfg = Release|x64
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Release|x64.Build.0 = Release|x64
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Release|x86.ActiveCfg = Release|Win32
+		{0DB41163-F3B7-463E-A7B8-A76DD652D9C3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC68BF0-803C-4F3F-BA02-99459E2DEEC5}
+	EndGlobalSection
+EndGlobal
