@@ -20,12 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\day01.cpp" />
+    <ClCompile Include="src\day02.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\templateday.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\real.txt" />
     <Text Include="..\data\01\test.txt" />
+    <Text Include="..\data\02\real.txt" />
+    <Text Include="..\data\02\test.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -49,3 +49,5 @@ cpp/x64/Debug/AdventOfCode2024.tlog/CL.command.1.tlog
 cpp/x64/Debug/AdventOfCode2024.tlog/AdventOfCode2024.lastbuildstate
 cpp/x64/Debug/vc143.idb
 cpp/x64/Debug/AdventOfCode2024.exe.recipe
+*.enc
+cpp/.vs/AdventOfCode2024/project-colors.json
