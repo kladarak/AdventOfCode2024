@@ -1,4 +1,4 @@
-#define currentday day03
+#define currentday day04
 
 int main()
 {

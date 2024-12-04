@@ -12,6 +12,9 @@
     <ClCompile Include="src\day03.cpp">
       <Filter>day03</Filter>
     </ClCompile>
+    <ClCompile Include="src\day04.cpp">
+      <Filter>day04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -35,6 +38,12 @@
     <Text Include="..\data\03\test2.txt">
       <Filter>day03</Filter>
     </Text>
+    <Text Include="..\data\04\real.txt">
+      <Filter>day04</Filter>
+    </Text>
+    <Text Include="..\data\04\test.txt">
+      <Filter>day04</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -45,6 +54,9 @@
     </Filter>
     <Filter Include="day03">
       <UniqueIdentifier>{70f87356-62ce-4a50-b25b-4d1c671e3fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day04">
+      <UniqueIdentifier>{d9020142-7d1f-4547-973f-69f2f280e072}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
