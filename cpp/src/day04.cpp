@@ -220,5 +220,5 @@ namespace d04
 void day04()
 {
 	d04::processPrintAndAssert("../data/04/test.txt", std::make_pair(18ull, 9ull));
-	d04::processPrintAndAssert("../data/04/real.txt", std::make_pair(2593ull, 0ull));
+	d04::processPrintAndAssert("../data/04/real.txt", std::make_pair(2593ull, 1950ull));
 }
