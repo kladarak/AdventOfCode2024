@@ -15,6 +15,12 @@
     <ClCompile Include="src\day04.cpp">
       <Filter>day04</Filter>
     </ClCompile>
+    <ClCompile Include="src\day05.cpp">
+      <Filter>day05</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day06.cpp">
+      <Filter>day06</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -44,6 +50,18 @@
     <Text Include="..\data\04\test.txt">
       <Filter>day04</Filter>
     </Text>
+    <Text Include="..\data\05\real.txt">
+      <Filter>day05</Filter>
+    </Text>
+    <Text Include="..\data\05\test.txt">
+      <Filter>day05</Filter>
+    </Text>
+    <Text Include="..\data\06\real.txt">
+      <Filter>day06</Filter>
+    </Text>
+    <Text Include="..\data\06\test.txt">
+      <Filter>day06</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -57,6 +75,12 @@
     </Filter>
     <Filter Include="day04">
       <UniqueIdentifier>{d9020142-7d1f-4547-973f-69f2f280e072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day05">
+      <UniqueIdentifier>{80f7a1d9-0b8b-480f-9171-d045f55a8ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day06">
+      <UniqueIdentifier>{e45b8a6e-eb38-4ec1-a8e7-8fc5f9d6f8bc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
