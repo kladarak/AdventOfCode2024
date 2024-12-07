@@ -68,7 +68,7 @@ namespace d07
 
 			for (size_t op = 0; op < numOperators; ++op)
 			{
-				const size_t opSelect = (c / static_cast<size_t>(pow(numOpTypes, op))) % numOpTypes;
+				const size_t opSelect = (c / static_cast<uint64_t>(pow(numOpTypes, op))) % numOpTypes;
 				const uint64_t operand = eq.operands[op + 1];
 
 				if (opSelect == 0)
