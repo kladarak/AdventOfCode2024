@@ -26,6 +26,7 @@
     <ClCompile Include="src\day05.cpp" />
     <ClCompile Include="src\day06.cpp" />
     <ClCompile Include="src\day07.cpp" />
+    <ClCompile Include="src\day08.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\templateday.cpp" />
   </ItemGroup>
@@ -45,6 +46,11 @@
     <Text Include="..\data\06\test.txt" />
     <Text Include="..\data\07\real.txt" />
     <Text Include="..\data\07\test.txt" />
+    <Text Include="..\data\08\real.txt" />
+    <Text Include="..\data\08\test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Vec2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
