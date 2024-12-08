@@ -89,6 +89,25 @@ namespace d08
 		}
 	}
 
+	static void printNodes(const std::set<Vec2>& nodes, const Vec2& size)
+	{
+		std::vector<bool> rowProto(size.x, false);
+		std::vector<std::vector<bool>> grid(size.y, rowProto);
+
+		for (Vec2 pos : nodes)
+			grid[pos.y][pos.x] = true;
+
+		for (size_t y = 0; y < grid.size(); ++y)
+		{
+			for (size_t x = 0; x < grid.front().size(); ++x)
+			{
+				std::cout << (grid[y][x] ? 'X' : '.');
+			}
+
+			std::cout << std::endl;
+		}
+	}
+
 	static uint64_t partOne(const Data08& data)
 	{
 		std::set<Vec2> antiNodes;
@@ -136,21 +155,9 @@ namespace d08
 			}
 		});
 
-		std::vector<bool> rowProto(data.bounds.botRght.x, false);
-		std::vector<std::vector<bool>> grid(data.bounds.botRght.y, rowProto);
-
-		for (Vec2 pos : antiNodes)
-			grid[pos.y][pos.x] = true;
-
-		for (size_t y = 0; y < grid.size(); ++y)
-		{
-			for (size_t x = 0; x < grid.front().size(); ++x)
-			{
-				std::cout << (grid[y][x] ? 'X' : '.');
-			}
-
-			std::cout << std::endl;
-		}
+		constexpr bool debugNodes = false;
+		if (debugNodes)
+			printNodes(antiNodes, data.bounds.botRght);
 
 		return antiNodes.size();
 	}
