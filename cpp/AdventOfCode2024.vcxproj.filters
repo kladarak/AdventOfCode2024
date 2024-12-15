@@ -27,6 +27,31 @@
     <ClCompile Include="src\day08.cpp">
       <Filter>day08</Filter>
     </ClCompile>
+    <ClCompile Include="src\day09.cpp">
+      <Filter>day09</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day10.cpp">
+      <Filter>day10</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day11.cpp">
+      <Filter>day11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day16.cpp">
+      <Filter>day16</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day15.cpp">
+      <Filter>day15</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day14.cpp">
+      <Filter>day14</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day13.cpp">
+      <Filter>day13</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day12.cpp">
+      <Filter>day12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -80,6 +105,66 @@
     <Text Include="..\data\08\test.txt">
       <Filter>day08</Filter>
     </Text>
+    <Text Include="..\data\09\real.txt">
+      <Filter>day09</Filter>
+    </Text>
+    <Text Include="..\data\09\test.txt">
+      <Filter>day09</Filter>
+    </Text>
+    <Text Include="..\data\10\real.txt">
+      <Filter>day10</Filter>
+    </Text>
+    <Text Include="..\data\10\test.txt">
+      <Filter>day10</Filter>
+    </Text>
+    <Text Include="..\data\11\real.txt">
+      <Filter>day11</Filter>
+    </Text>
+    <Text Include="..\data\11\test.txt">
+      <Filter>day11</Filter>
+    </Text>
+    <Text Include="..\data\16\real.txt">
+      <Filter>day16</Filter>
+    </Text>
+    <Text Include="..\data\16\test.txt">
+      <Filter>day16</Filter>
+    </Text>
+    <Text Include="..\data\15\real.txt">
+      <Filter>day15</Filter>
+    </Text>
+    <Text Include="..\data\15\test.txt">
+      <Filter>day15</Filter>
+    </Text>
+    <Text Include="..\data\14\real.txt">
+      <Filter>day14</Filter>
+    </Text>
+    <Text Include="..\data\14\test.txt">
+      <Filter>day14</Filter>
+    </Text>
+    <Text Include="..\data\13\real.txt">
+      <Filter>day13</Filter>
+    </Text>
+    <Text Include="..\data\13\test.txt">
+      <Filter>day13</Filter>
+    </Text>
+    <Text Include="..\data\12\real.txt">
+      <Filter>day12</Filter>
+    </Text>
+    <Text Include="..\data\12\test.txt">
+      <Filter>day12</Filter>
+    </Text>
+    <Text Include="..\data\12\test2.txt">
+      <Filter>day12</Filter>
+    </Text>
+    <Text Include="..\data\12\test3.txt">
+      <Filter>day12</Filter>
+    </Text>
+    <Text Include="..\data\12\test4.txt">
+      <Filter>day12</Filter>
+    </Text>
+    <Text Include="..\data\12\test5.txt">
+      <Filter>day12</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -105,6 +190,30 @@
     </Filter>
     <Filter Include="day08">
       <UniqueIdentifier>{b45a703f-90da-43f1-98a1-77cf1a40cec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day09">
+      <UniqueIdentifier>{aeaf5d02-edcd-4abf-a708-ca2763bfc83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day10">
+      <UniqueIdentifier>{9db720f0-0724-4e20-bd19-63979a170079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day11">
+      <UniqueIdentifier>{741c5f99-8d37-4c7c-a3a3-432b2a3f9977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day12">
+      <UniqueIdentifier>{2207ce0e-6a63-408e-ac7d-690ee0c1c2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day13">
+      <UniqueIdentifier>{79ddd438-942a-40dc-ab34-4ef5e6e8489c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day14">
+      <UniqueIdentifier>{2a3d5390-c56d-471f-b404-0109b3fed68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day15">
+      <UniqueIdentifier>{661afd7b-fd0a-423d-94db-a6cc6e5c3e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day16">
+      <UniqueIdentifier>{e05d18f8-9f7e-4146-959c-119f1e691098}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -15,22 +15,6 @@
 
 namespace d06
 {
-	enum class Direction
-	{
-		Up,
-		Right,
-		Down,
-		Left,
-	};
-
-	static const Vec2 deltas[] =
-	{
-		{0, -1},
-		{1, 0},
-		{0, 1},
-		{-1, 0},
-	};
-
 	struct Grid
 	{
 		std::vector<std::vector<bool>> cells;
@@ -102,7 +86,7 @@ namespace d06
 		std::set<std::pair<Vec2, Direction>> loopDetect;
 
 		Direction dir = Direction::Up;
-		Vec2 delta = deltas[(int) dir];
+		Vec2 delta = Vec2::directions[(int) dir];
 		Vec2 pos = start;
 
 		visited.insert(pos);
@@ -130,7 +114,7 @@ namespace d06
 			else
 			{
 				dir = Direction(((int) dir + 1) % 4);
-				delta = deltas[(int) dir];
+				delta = Vec2::directions[(int) dir];
 			}
 		}
 

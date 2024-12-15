@@ -16,20 +16,6 @@
 
 namespace d08
 {
-	struct Bounds
-	{
-		Vec2 topLeft;
-		Vec2 botRght;
-
-		bool isInBounds(Vec2 pos) const
-		{
-			return topLeft.x <= pos.x
-				&& topLeft.y <= pos.y
-				&& pos.x < botRght.x
-				&& pos.y < botRght.y;
-		}
-	};
-
 	struct Data08
 	{
 		std::map<char, std::set<Vec2>> antennaPositions;

@@ -12,9 +12,9 @@
 #include <vector>
 #include <unordered_map>
 
-namespace d_X_
+namespace d15
 {
-	struct Data_X_
+	struct Data15
 	{
 	};
 
@@ -23,7 +23,7 @@ namespace d_X_
 		std::fstream s{ filename, s.in };
 		assert(s.is_open());
 
-		Data_X_ data;
+		Data15 data;
 
 		while (s.peek() != EOF)
 		{
@@ -35,12 +35,12 @@ namespace d_X_
 		return data;
 	}
 
-	static uint64_t partOne(const Data_X_& )
+	static uint64_t partOne(const Data15& )
 	{
 		return 0;
 	}
 
-	static uint64_t partTwo(const Data_X_& )
+	static uint64_t partTwo(const Data15& )
 	{
 		return 0;
 	}
@@ -61,8 +61,8 @@ namespace d_X_
 	}
 }
 
-void day_X_()
+void day15()
 {
-	d_X_::processPrintAndAssert("../data/_X_/test.txt", std::make_pair(0ull, 0ull));
-	d_X_::processPrintAndAssert("../data/_X_/real.txt", std::make_pair(0ull, 0ull));
+	d15::processPrintAndAssert("../data/15/test.txt", std::make_pair(0ull, 0ull));
+	d15::processPrintAndAssert("../data/15/real.txt", std::make_pair(0ull, 0ull));
 }

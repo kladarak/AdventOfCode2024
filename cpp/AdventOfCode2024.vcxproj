@@ -27,8 +27,17 @@
     <ClCompile Include="src\day06.cpp" />
     <ClCompile Include="src\day07.cpp" />
     <ClCompile Include="src\day08.cpp" />
+    <ClCompile Include="src\day09.cpp" />
+    <ClCompile Include="src\day10.cpp" />
+    <ClCompile Include="src\day11.cpp" />
+    <ClCompile Include="src\day12.cpp" />
+    <ClCompile Include="src\day13.cpp" />
+    <ClCompile Include="src\day14.cpp" />
+    <ClCompile Include="src\day15.cpp" />
+    <ClCompile Include="src\day16.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\templateday.cpp" />
+    <ClCompile Include="src\Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\real.txt" />
@@ -48,6 +57,26 @@
     <Text Include="..\data\07\test.txt" />
     <Text Include="..\data\08\real.txt" />
     <Text Include="..\data\08\test.txt" />
+    <Text Include="..\data\09\real.txt" />
+    <Text Include="..\data\09\test.txt" />
+    <Text Include="..\data\10\real.txt" />
+    <Text Include="..\data\10\test.txt" />
+    <Text Include="..\data\11\real.txt" />
+    <Text Include="..\data\11\test.txt" />
+    <Text Include="..\data\12\real.txt" />
+    <Text Include="..\data\12\test.txt" />
+    <Text Include="..\data\12\test2.txt" />
+    <Text Include="..\data\12\test3.txt" />
+    <Text Include="..\data\12\test4.txt" />
+    <Text Include="..\data\12\test5.txt" />
+    <Text Include="..\data\13\real.txt" />
+    <Text Include="..\data\13\test.txt" />
+    <Text Include="..\data\14\real.txt" />
+    <Text Include="..\data\14\test.txt" />
+    <Text Include="..\data\15\real.txt" />
+    <Text Include="..\data\15\test.txt" />
+    <Text Include="..\data\16\real.txt" />
+    <Text Include="..\data\16\test.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Vec2.h" />
