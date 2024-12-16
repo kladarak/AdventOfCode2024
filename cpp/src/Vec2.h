@@ -40,6 +40,9 @@ struct Vec2T
 	Vec2T& operator-=(Vec2T r) { return *this = (*this - r); }
 	Vec2T& operator*=(T n) { return *this = (*this * n); }
 
+	friend Vec2T operator-(Vec2T r) { return Vec2T() - r; }
+
+
 	bool operator==(Vec2T r) const { return x == r.x && y == r.y; }
 	bool operator!=(Vec2T r) const { return !(*this == r); }
 

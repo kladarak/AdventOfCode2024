@@ -52,6 +52,7 @@
       <Filter>day12</Filter>
     </ClCompile>
     <ClCompile Include="src\Vec2.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -165,6 +166,12 @@
     <Text Include="..\data\12\test5.txt">
       <Filter>day12</Filter>
     </Text>
+    <Text Include="..\data\15\test2.txt">
+      <Filter>day15</Filter>
+    </Text>
+    <Text Include="..\data\16\test2.txt">
+      <Filter>day16</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -218,5 +225,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Vec2.h" />
+    <ClInclude Include="src\Renderer.h" />
   </ItemGroup>
 </Project>

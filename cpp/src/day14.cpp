@@ -16,6 +16,7 @@
 #include <thread>
 
 #include "Vec2.h"
+#include "Renderer.h"
 
 namespace d14
 {
@@ -112,70 +113,14 @@ namespace d14
 		}
 	}
 
-	struct Renderer
+	bool hasContinuousChunk(const Renderer& renderer)
 	{
-		const size_t width;
-		const size_t height;
-		std::vector<std::string> emptyGrid;
-		std::vector<std::string> buffer;
+		for (auto& line : renderer.getBuffer())
+			if (&line != &renderer.getBuffer().back() && line.find("#######") != std::string::npos)
+				return true;
 
-		explicit Renderer(const Bounds& bounds)
-			: width(bounds.botRght.x)
-			, height(bounds.botRght.y)
-			, emptyGrid(height + 1, std::string(width + 1, ' '))
-		{
-			for (auto& line : emptyGrid)
-				line.back() = '#';
-
-			emptyGrid.back() = std::string(width + 1, '#');
-
-			HANDLE output = GetStdHandle(STD_OUTPUT_HANDLE);
-			SetConsoleScreenBufferSize(output, {200, 200});
-		}
-
-		void clear()
-		{
-			buffer = emptyGrid;
-		}
-
-		void plot(Vec2 pos, [[maybe_unused]] char c)
-		{
-			buffer[pos.y][pos.x] = '#';
-		}
-
-		bool hasContinuousChunk() const
-		{
-			for (auto& line : buffer)
-				if (&line != &buffer.back() && line.find("#######") != std::string::npos)
-					return true;
-
-			return false;
-		}
-
-		void render(int iteration)
-		{
-			//system("cls");
-
-			COORD pos = {0, 0};
-			static HANDLE output = GetStdHandle(STD_OUTPUT_HANDLE);
-			SetConsoleCursorPosition(output, pos);
-
-			std::cout << "Iteration: " << iteration << '\n';
-
-			for (auto& line : buffer)
-				std::cout << line << '\n';
-		}
-
-		std::string concatenated() const
-		{
-			std::string concat;
-
-			for (auto& line : buffer)
-				concat += line;
-
-			return concat;
-		}
-	};
+		return false;
+	}
 
 	static uint64_t partOne(const Data14& data)
 	{
@@ -255,7 +200,7 @@ namespace d14
 						renderer.plot(animPos, robot.glyph);
 					}
 
-					renderer.render(i);
+					renderer.render();
 					std::this_thread::sleep_for(16ms);
 				}
 			}
@@ -265,9 +210,9 @@ namespace d14
 				for (const Robot& robot : robots)
 					renderer.plot(robot.pos, robot.glyph);
 		
-				if (renderer.hasContinuousChunk())
+				if (hasContinuousChunk(renderer))
 				{
-					renderer.render(i);
+					renderer.render();
 
 					//if (std::cin.get() == 'y')
 						return i;

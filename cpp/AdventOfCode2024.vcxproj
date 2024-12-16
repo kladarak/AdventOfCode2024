@@ -36,6 +36,7 @@
     <ClCompile Include="src\day15.cpp" />
     <ClCompile Include="src\day16.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\templateday.cpp" />
     <ClCompile Include="src\Vec2.cpp" />
   </ItemGroup>
@@ -75,10 +76,13 @@
     <Text Include="..\data\14\test.txt" />
     <Text Include="..\data\15\real.txt" />
     <Text Include="..\data\15\test.txt" />
+    <Text Include="..\data\15\test2.txt" />
     <Text Include="..\data\16\real.txt" />
     <Text Include="..\data\16\test.txt" />
+    <Text Include="..\data\16\test2.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\Vec2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
