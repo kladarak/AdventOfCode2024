@@ -53,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="src\Vec2.cpp" />
     <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\day17.cpp">
+      <Filter>day17</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -172,6 +175,15 @@
     <Text Include="..\data\16\test2.txt">
       <Filter>day16</Filter>
     </Text>
+    <Text Include="..\data\17\real.txt">
+      <Filter>day17</Filter>
+    </Text>
+    <Text Include="..\data\17\test.txt">
+      <Filter>day17</Filter>
+    </Text>
+    <Text Include="..\data\17\test2.txt">
+      <Filter>day17</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -221,6 +233,9 @@
     </Filter>
     <Filter Include="day16">
       <UniqueIdentifier>{e05d18f8-9f7e-4146-959c-119f1e691098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day17">
+      <UniqueIdentifier>{ec190ec1-ec47-4082-90e2-67f7cb54dbf0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
