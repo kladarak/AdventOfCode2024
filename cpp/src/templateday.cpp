@@ -30,6 +30,11 @@ namespace d_X_
 			std::string line;
 			std::getline(s, line);
 			assert(line.size() > 0);
+
+			for (const auto word : std::views::split(line, ' '))
+			{
+				[[maybe_unused]] const std::string token(&*word.begin(), std::ranges::distance(word));
+			}
 		}
 
 		return data;
@@ -45,24 +50,21 @@ namespace d_X_
 		return 0;
 	}
 
-	static std::pair<uint64_t, uint64_t> process(const char* filename)
+	static void processPrintAndAssert(const char* filename, auto expected1, auto expected2)
 	{
 		const auto data = loadData(filename);
-		return std::make_pair(partOne(data), partTwo(data));
-	}
+		const auto result1 = partOne(data);
+		const auto result2 = partTwo(data);
 
-	static void processPrintAndAssert(const char* filename, std::pair<uint64_t, uint64_t> expected)
-	{
-		const auto result = process(filename);
-		std::cout << "Part 1: " << result.first << " Part 2: " << result.second << std::endl;
+		std::cout << "Part 1: " << result1 << " Part 2: " << result2 << std::endl;
 
-		assert(expected.first == 0 || result.first == expected.first);
-		assert(expected.second == 0 || result.second == expected.second);
+		assert(expected1 == decltype(expected1){} || result1 == expected1);
+		assert(expected2 == decltype(expected2){} || result2 == expected2);
 	}
 }
 
 void day_X_()
 {
-	d_X_::processPrintAndAssert("../data/_X_/test.txt", std::make_pair(0ull, 0ull));
-	d_X_::processPrintAndAssert("../data/_X_/real.txt", std::make_pair(0ull, 0ull));
+	d_X_::processPrintAndAssert("../data/_X_/test.txt", 0ull, 0ull);
+	d_X_::processPrintAndAssert("../data/_X_/real.txt", 0ull, 0ull);
 }
