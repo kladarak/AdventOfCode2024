@@ -249,7 +249,7 @@ namespace d18
 	{
 		Grid grid(data.bounds);
 
-		int attempt = 0;
+		//int attempt = 0;
 		for (Vec2 pos : data.corrupted)
 		{
 			//std::cout << "Attempt: " << attempt++ << std::endl;

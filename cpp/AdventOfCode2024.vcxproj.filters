@@ -59,6 +59,10 @@
     <ClCompile Include="src\day18.cpp">
       <Filter>day18</Filter>
     </ClCompile>
+    <ClCompile Include="src\day19.cpp">
+      <Filter>day19</Filter>
+    </ClCompile>
+    <ClCompile Include="src\String.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -193,6 +197,12 @@
     <Text Include="..\data\18\test.txt">
       <Filter>day18</Filter>
     </Text>
+    <Text Include="..\data\19\real.txt">
+      <Filter>day19</Filter>
+    </Text>
+    <Text Include="..\data\19\test.txt">
+      <Filter>day19</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -249,9 +259,13 @@
     <Filter Include="day18">
       <UniqueIdentifier>{75660d9d-a162-422f-86f0-78f827403af5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="day19">
+      <UniqueIdentifier>{67b3b02c-31d1-4848-b301-6cb97cc64a21}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Vec2.h" />
     <ClInclude Include="src\Renderer.h" />
+    <ClInclude Include="src\String.h" />
   </ItemGroup>
 </Project>

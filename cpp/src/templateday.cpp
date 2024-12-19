@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <cassert>
-#include <fstream>
 #include <iostream>
+#include <fstream>
 #include <functional>
 #include <map>
 #include <numeric>
@@ -9,8 +9,12 @@
 #include <ranges>
 #include <set>
 #include <string>
-#include <vector>
 #include <unordered_map>
+#include <vector>
+
+#include "String.h"
+#include "Renderer.h"
+#include "Vec2.h"
 
 namespace d_X_
 {
@@ -20,32 +24,24 @@ namespace d_X_
 
 	static auto loadData(const char* filename)
 	{
-		std::fstream s{ filename, s.in };
-		assert(s.is_open());
-
 		Data_X_ data;
 
-		while (s.peek() != EOF)
+		for (std::string& line : String::readLines(filename))
 		{
-			std::string line;
-			std::getline(s, line);
-			assert(line.size() > 0);
+			if (line.empty())
+				continue;
 
-			for (const auto word : std::views::split(line, ' '))
-			{
-				[[maybe_unused]] const std::string token(&*word.begin(), std::ranges::distance(word));
-			}
 		}
 
 		return data;
 	}
 
-	static uint64_t partOne(const Data_X_& )
+	static uint64_t partOne([[maybe_unused]] const Data_X_& data)
 	{
 		return 0;
 	}
 
-	static uint64_t partTwo(const Data_X_& )
+	static uint64_t partTwo([[maybe_unused]] const Data_X_& data)
 	{
 		return 0;
 	}

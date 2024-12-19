@@ -83,3 +83,17 @@ struct Bounds
 			&& pos.y < botRght.y;
 	}
 };
+
+struct EZBounds
+{
+	int width = 0;
+	int height = 0;
+
+	bool isInBounds(Vec2 pos) const
+	{
+		return 0 <= pos.x
+			&& 0 <= pos.y
+			&& pos.x < width
+			&& pos.y < height;
+	}
+};
