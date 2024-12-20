@@ -39,6 +39,11 @@
     <ClCompile Include="src\day18.cpp" />
     <ClCompile Include="src\day19.cpp" />
     <ClCompile Include="src\day20.cpp" />
+    <ClCompile Include="src\day21.cpp" />
+    <ClCompile Include="src\day22.cpp" />
+    <ClCompile Include="src\day23.cpp" />
+    <ClCompile Include="src\day24.cpp" />
+    <ClCompile Include="src\day25.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\String.cpp" />
@@ -94,6 +99,16 @@
     <Text Include="..\data\19\test.txt" />
     <Text Include="..\data\20\real.txt" />
     <Text Include="..\data\20\test.txt" />
+    <Text Include="..\data\21\real.txt" />
+    <Text Include="..\data\21\test.txt" />
+    <Text Include="..\data\22\real.txt" />
+    <Text Include="..\data\22\test.txt" />
+    <Text Include="..\data\23\real.txt" />
+    <Text Include="..\data\23\test.txt" />
+    <Text Include="..\data\24\real.txt" />
+    <Text Include="..\data\24\test.txt" />
+    <Text Include="..\data\25\real.txt" />
+    <Text Include="..\data\25\test.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h" />

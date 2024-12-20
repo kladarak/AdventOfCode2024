@@ -66,6 +66,21 @@
     <ClCompile Include="src\day20.cpp">
       <Filter>day20</Filter>
     </ClCompile>
+    <ClCompile Include="src\day21.cpp">
+      <Filter>day21</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day22.cpp">
+      <Filter>day22</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day23.cpp">
+      <Filter>day23</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day24.cpp">
+      <Filter>day24</Filter>
+    </ClCompile>
+    <ClCompile Include="src\day25.cpp">
+      <Filter>day25</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\data\01\test.txt">
@@ -212,6 +227,36 @@
     <Text Include="..\data\20\test.txt">
       <Filter>day20</Filter>
     </Text>
+    <Text Include="..\data\21\real.txt">
+      <Filter>day21</Filter>
+    </Text>
+    <Text Include="..\data\21\test.txt">
+      <Filter>day21</Filter>
+    </Text>
+    <Text Include="..\data\22\real.txt">
+      <Filter>day22</Filter>
+    </Text>
+    <Text Include="..\data\22\test.txt">
+      <Filter>day22</Filter>
+    </Text>
+    <Text Include="..\data\23\real.txt">
+      <Filter>day23</Filter>
+    </Text>
+    <Text Include="..\data\23\test.txt">
+      <Filter>day23</Filter>
+    </Text>
+    <Text Include="..\data\24\real.txt">
+      <Filter>day24</Filter>
+    </Text>
+    <Text Include="..\data\24\test.txt">
+      <Filter>day24</Filter>
+    </Text>
+    <Text Include="..\data\25\real.txt">
+      <Filter>day25</Filter>
+    </Text>
+    <Text Include="..\data\25\test.txt">
+      <Filter>day25</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
@@ -273,6 +318,21 @@
     </Filter>
     <Filter Include="day20">
       <UniqueIdentifier>{9f34d290-71a6-4108-af9d-89db4730de34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day21">
+      <UniqueIdentifier>{b87c83b8-6782-41ad-95be-4ebf5e5b3b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day22">
+      <UniqueIdentifier>{ad91293a-4cf5-45ad-ae8c-7419af75c65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day23">
+      <UniqueIdentifier>{a70d4f83-57db-4fd5-a16f-466ff37fa862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day24">
+      <UniqueIdentifier>{225ce795-5a68-4b47-99dc-238a8deecc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="day25">
+      <UniqueIdentifier>{612d3c49-66c5-43b9-90a2-ed370bd87e5f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
