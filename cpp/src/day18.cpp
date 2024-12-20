@@ -141,11 +141,7 @@ namespace d18
 
 		bool operator==(const Location& r) const { return pos == r.pos && score == r.score; }
 		bool operator!=(const Location& r) const { return !(*this == r); }
-		bool operator<(const Location& r) const
-		{
-			if (pos != r.pos) return pos < r.pos;
-			return false;
-		}
+		bool operator<(const Location& r) const { return pos < r.pos; }
 	};
 
 	struct MoreExpensive

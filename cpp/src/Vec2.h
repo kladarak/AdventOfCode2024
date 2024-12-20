@@ -54,6 +54,11 @@ struct Vec2T
 			return y < r.y;
 	}
 
+	int manhattan() const
+	{
+		return abs(x) + abs(y);
+	}
+
 	static const Vec2T directions[(int) Direction::Count];
 	static const Vec2T getDirection(Direction d) { return directions[(int) d]; }
 };
