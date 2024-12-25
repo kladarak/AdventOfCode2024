@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -107,6 +107,7 @@
     <Text Include="..\data\23\test.txt" />
     <Text Include="..\data\24\real.txt" />
     <Text Include="..\data\24\test.txt" />
+    <Text Include="..\data\24\test2.txt" />
     <Text Include="..\data\25\real.txt" />
     <Text Include="..\data\25\test.txt" />
   </ItemGroup>

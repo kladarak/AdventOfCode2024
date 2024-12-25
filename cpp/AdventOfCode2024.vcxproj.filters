@@ -257,6 +257,9 @@
     <Text Include="..\data\25\test.txt">
       <Filter>day25</Filter>
     </Text>
+    <Text Include="..\data\24\test2.txt">
+      <Filter>day24</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="day01">
